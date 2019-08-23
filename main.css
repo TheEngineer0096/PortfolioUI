@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:700&display=swap');
+
+
+
+* {
+	margin: 0;
+	padding:0;
+	font-size: 100%;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+html {
+	font-family: 'Hepta Slab', serif;
+}
+
+
+body {
+	width: 100%;
+	background-image: url(images/BG_01.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+
+}
+
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+h1 {
+	color: white;
+	font-size: 48px;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+}
+
+ul {
+	list-style: none;
+	margin-top: 30px;
+}
+
+li {
+	color: white;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+nav {
+
+	height: 100px;
+	line-height: 100px;
+
+}
+
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+nav a img {
+	vertical-align: middle;
+}
+
+nav a:nth-child(2){
+	float: right;
+}
+
+
+header {
+	margin: 100px 0 200px 0;
+	text-align: center;
+}
+
+header p {
+	width: 45%;
+	margin: 30px auto 0 auto;
+	line-height: 23px;
+}
+
+header a {
+
+	color: #FF4A5E;
+	text-decoration: none;
+
+}
+
+
+.work {
+	text-align: center;
+	width: 100%;
+}
+
+.work a img {
+	margin: 1%;
+	width: 45%;
+	border-radius: 10px;
+}
+
+.whatIDo {
+	text-align: center;
+	margin: 100px 0 200px 0;
+	position: relative;
+}
+.whatIDo h1 {
+ color: #13A3FD;
+
+}
+
+.iAm {
+	color: #25272C;
+	font-size: 150px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	top: -20px;
+	z-index: -1;
+
+}
+
+
+.work2 {
+	width: 100%;
+	text-align: center;
+}
+
+.work2 a img {
+	margin: 1%;
+	width: 52%;
+	border-radius: 50px;
+}
+
+
+footer {
+	text-align: center;
+	margin: 60px 0;
+}
+
+footer p {
+	color: #404348;
+}
+
+
+
